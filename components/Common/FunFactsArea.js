@@ -33,8 +33,8 @@ const FunFactsArea = () => {
               data-aos-once="true"
             >
               <div className="funfact">
-                <h3>180K</h3>
-                <p>Downloaded</p>
+                <h3>12+</h3>
+                <p>Project</p>
               </div>
             </div>
 
@@ -46,8 +46,8 @@ const FunFactsArea = () => {
               data-aos-once="true"
             >
               <div className="funfact">
-                <h3>20K</h3>
-                <p>Feedback</p>
+                <h3>30+</h3>
+                <p>Happy Clients</p>
               </div>
             </div>
 
@@ -59,8 +59,8 @@ const FunFactsArea = () => {
               data-aos-once="true"
             >
               <div className="funfact">
-                <h3>500+</h3>
-                <p>Workers</p>
+                <h3>12+</h3>
+                <p>Services</p>
               </div>
             </div>
 
@@ -72,7 +72,7 @@ const FunFactsArea = () => {
               data-aos-once="true"
             >
               <div className="funfact">
-                <h3>70+</h3>
+                <h3>7+</h3>
                 <p>Contributors</p>
               </div>
             </div>

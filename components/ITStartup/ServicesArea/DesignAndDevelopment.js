@@ -138,8 +138,7 @@ const DesignAndDevelopment = () => {
                 <h2>Design & Development</h2>
                 <div className="bar"></div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  We offer comprehensive design and development services to bring your ideas to life. Our team of experts ensures that your project is executed with precision and creativity.
                 </p>
               </div>
 

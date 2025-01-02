@@ -49,9 +49,7 @@ const MainBanner = () => {
                       data-aos-duration="500"
                       data-aos-once="true"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida
+                   Your Vision, Our Expertise ,At Lyrcon Solutions, we bring your ideas to life with our expert team. Our dedicated professionals turn your vision into reality, delivering innovative solutions and exceptional results. Partner with us for top-tier quality,"
                     </p>
 
                     <Link
