@@ -88,7 +88,7 @@ This files table contents are outlined below>>>>>
 /*================================================
 Default CSS
 =================================================*/
-$light-green-color: #44ce6f;
+$light-green-color: #746bc5;
 $white-color: #ffffff;
 $black-color: #0e314c;
 $navlink-color: #4a6f8a;
@@ -97,7 +97,7 @@ $purple-color: #c679e3;
 $bg-color: #f7fafd;
 $bg-color2: #f9f6f6;
 $hosting-main-color: #032b8d;
-$gradient-color: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+$gradient-color: linear-gradient(135deg, #746bc5 0%, #746bc5 100%);
 $gradient-color2: linear-gradient(to right bottom, #1fa2ff, #00c0ff, #00d9f2, #53eedd, #a6ffcb);
 $transition: .5s;
 $font-size: 14px;
@@ -3518,7 +3518,7 @@ Big Data Analytics Banner CSS
         right: 0;
         bottom: 0;
         border-radius: 5px;
-        background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+        background: linear-gradient(135deg, #746bc5 0%, #746bc5 100%);
         z-index: -1;
         opacity: 0;
         margin: -1px;
@@ -3619,7 +3619,7 @@ What We Do CSS
         border-radius: 5px;
         color: $white-color;
         text-align: center;
-        background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+        background: linear-gradient(135deg, #746bc5 0%, #746bc5 100%);
 
         i {
             position: absolute;
