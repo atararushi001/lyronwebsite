@@ -38,7 +38,7 @@ const Index = () => {
 
       <Partner />
 
-      <BlogPost />
+      {/* <BlogPost /> */}
 
       <Footer />
     </>

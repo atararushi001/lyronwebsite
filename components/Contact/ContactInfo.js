@@ -14,11 +14,11 @@ const ContactInfo = () => {
                 </div>
                 <h3>Mail Here</h3>
                 <p>
-                  <a href="mailto:admin@startp.com">admin@startp.com</a>
+                  <a href="mailto:contact@lyrcon.com">contact@lyrcon.com</a>
                 </p>
-                <p>
+                {/* <p>
                   <a href="mailto:info@startp.com">info@startp.com</a>
-                </p>
+                </p> */}
               </div>
             </div>
 
@@ -29,7 +29,8 @@ const ContactInfo = () => {
                 </div>
                 <h3>Visit Here</h3>
                 <p>
-                  27 Division St, New York, NY 10002, United States of America
+                  3 Jay maharaj complex, Dumral Bazar, Junaraopura, Nadiad,
+                  Gujarat-387002
                 </p>
               </div>
             </div>
@@ -41,11 +42,9 @@ const ContactInfo = () => {
                 </div>
                 <h3>Call Here</h3>
                 <p>
-                  <a href="tel:+1234567890">+123 456 7890</a>
+                  <a href="tel:+919879058010">+91 9879058010</a>
                 </p>
-                <p>
-                  <a href="tel:+2414524526">+241 452 4526</a>
-                </p>
+               
               </div>
             </div>
           </div>
