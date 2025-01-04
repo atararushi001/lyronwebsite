@@ -172,7 +172,7 @@ const Footer = () => {
               <div className="copyright-area">
                 <p>
                   Copyright &copy; {currentYear} StartP. All rights reserved by{" "}
-                 Lyrcon
+                 Lyrcon Solutions 
                 </p>
               </div>
             </div>
