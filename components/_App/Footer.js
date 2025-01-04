@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import * as Icon from "react-feather";
 
-import logo from "/public/images/logo.png";
+import logo from "/public/images/logo-w.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div
-              className="col-lg-3 col-md-6"
+              className="col-lg-4 col-md-6"
               data-aos="fade-in"
               data-aos-delay="100"
               data-aos-duration="500"
@@ -27,10 +27,11 @@ const Footer = () => {
                   </Link>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi.
+                  Your Vision, Our Expertise ,At Lyrcon Solutions, we bring your
+                  ideas to life with our expert team. Our dedicated
+                  professionals turn your vision into reality, delivering
+                  innovative solutions and exceptional results. Partner with us
+                  for top-tier quality,"
                 </p>
               </div>
             </div>
@@ -50,22 +51,22 @@ const Footer = () => {
                     <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="/services">Services</Link>
+                    <Link href="/services">Projects</Link>
                   </li>
                   <li>
-                    <Link href="/features">Features</Link>
+                    <Link href="/features">Contact Us</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/pricing">Our Pricing</Link>
                   </li>
                   <li>
                     <Link href="/blog">Latest News</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
 
-            <div
+            {/* <div
               className="col-lg-3 col-md-6"
               data-aos="fade-in"
               data-aos-delay="300"
@@ -93,7 +94,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div
               className="col-lg-3 col-md-6"
@@ -107,19 +108,19 @@ const Footer = () => {
 
                 <ul className="footer-contact-info">
                   <li>
-                    <Icon.MapPin />
-                    27 Division St, New York, <br /> NY 10002, USA
+                    <Icon.MapPin />3 Jay maharaj complex, Dumral Bazar,
+                    Junaraopura, Nadiad, Gujarat-387002{" "}
                   </li>
 
                   <li>
                     <Icon.Mail />
                     Email:{" "}
-                    <a href="mailto:startp@gmail.com">startp@gmail.com</a>
+                    <a href="mailto:contact@lyrcon.com">contact@lyrcon.com</a>
                   </li>
 
                   <li>
                     <Icon.PhoneCall />
-                    Phone: <a href="tel:321984754">+ (321) 984 754</a>
+                    Phone: <a href="tel:+919879058010">+91 9879058010</a>
                   </li>
                 </ul>
 
@@ -171,9 +172,7 @@ const Footer = () => {
               <div className="copyright-area">
                 <p>
                   Copyright &copy; {currentYear} StartP. All rights reserved by{" "}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
-                  </a>
+                 Lyrcon
                 </p>
               </div>
             </div>
@@ -201,7 +200,7 @@ const Footer = () => {
         <div className="shape8 rotateme">
           <Image src="/images/shape2.svg" alt="shape" width={22} height={22} />
         </div>
-      </footer> 
+      </footer>
     </>
   );
 };

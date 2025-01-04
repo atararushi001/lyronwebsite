@@ -115,11 +115,10 @@ class Feedback extends React.Component {
         <section className="feedback-area ptb-80 bg-f7fafd">
           <div className="container">
             <div className="section-title">
-              <h2>What users Saying</h2>
+              <h2>What Users Are Saying</h2>
               <div className="bar"></div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Hear what our clients have to say about their experience with our exceptional services.
               </p>
             </div>
 
@@ -189,30 +188,6 @@ class Feedback extends React.Component {
               height={146}
             />
           </div>
-          <div className="shape6 rotateme">
-            <Image
-              src={shape4}
-              alt="shape"
-              width={21}
-              height={20}
-            />
-          </div>
-          <div className="shape7">
-            <Image
-              src={shape4}
-              alt="shape"
-              width={21}
-              height={20}
-            />
-          </div>
-          <div className="shape8 rotateme">
-            <Image
-              src={shape2}
-              alt="shape"
-              width={22}
-              height={22}
-            />
-          </div>
         </section>
       </>
     );
@@ -221,60 +196,32 @@ class Feedback extends React.Component {
 
 const DEFAULT_PROPS = [
   {
-    name: "David Gale",
-    profession: "Web Developer",
-    image: "/images/client-image/client2.jpg",
+    name: "Sophia Carter",
+    profession: "Tech Entrepreneur",
+    image: "/images/client-image/client1.jpg",
     content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Working with this company was an absolute pleasure. Their professionalism and expertise are unmatched. They transformed our vision into a seamless product. Highly recommend!",
   },
   {
-    name: "Matt Damon",
+    name: "Liam Smith",
+    profession: "Product Manager",
+    image: "/images/client-image/client2.jpg",
+    content:
+      "The team went above and beyond to ensure our project was a success. Their dedication and attention to detail are commendable.",
+  },
+  {
+    name: "Olivia Brown",
+    profession: "UI/UX Designer",
+    image: "/images/client-image/client3.jpg",
+    content:
+      "Their innovative approach and user-centric design principles have left me thoroughly impressed. A great team to work with!",
+  },
+  {
+    name: "Noah Wilson",
     profession: "Software Engineer",
     image: "/images/client-image/client4.jpg",
     content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    name: "Nicky Parsons",
-    profession: "Fictional Character",
-    image: "/images/client-image/client1.jpg",
-    content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    name: "Jason Momoa",
-    profession: "American Actor",
-    image: "/images/client-image/client5.jpg",
-    content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    name: "Gennady Korotkevich",
-    profession: "Sport Programmer",
-    image: "/images/client-image/client3.jpg",
-    content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    name: "Petr Mitrichev",
-    profession: "Russian Programmer",
-    image: "/images/client-image/client3.jpg",
-    content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    name: "Reid W. Barton",
-    profession: "Mathematics",
-    image: "/images/client-image/client2.jpg",
-    content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    name: "Lisa Sauermann",
-    profession: "Mathematician",
-    image: "/images/client-image/client1.jpg",
-    content:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Excellent communication and timely delivery. Their technical expertise is evident in the quality of their work.",
   },
 ];
 

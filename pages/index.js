@@ -32,7 +32,7 @@ const Index = () => {
 
       <RecentWorks />
 
-      <PricingStyleOne />
+      {/* <PricingStyleOne /> */}
 
       <Feedback />
 
