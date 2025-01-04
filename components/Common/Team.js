@@ -12,16 +12,17 @@ import teamImg5 from "/public/images/team-image/team5.jpg";
 
 const Team = () => {
   const teamMembers = [
-    { name: "Shah Preksha", title: "Founder & CEO", image: teamImg4 },
-    { name: "Darshan Desai", title: "Co-founder", image: teamImg5 },
-    { name: "Ghanshyam Desai", title: "Director", image: teamImg1 },
-    { name: "Vrushil Prajapati", title: "Business Development Manager", image: teamImg2 },
-    { name: "Jay Miyani", title: "Team Lead (Full Stack Development)", image: teamImg3 },
-    { name: "Mayur Chitaliya", title: "Web Developer", image: teamImg4 },
-    { name: "Jainam Panara", title: "AWS Trainer", image: teamImg5 },
-    { name: "Karan Joshi", title: "E-commerce Consultant", image: teamImg1 },
-    { name: "Vidhi Patel", title: "Marketing Head", image: teamImg2 },
-  ];
+
+      { name: "Shah Preksha", title: "Founder & CEO", image: teamImg4 },
+      { name: "Darshan Desai", title: "Co-founder", image: teamImg5 },
+      { name: "Ghanshyam Desai", title: "Director", image: teamImg1 },
+      { name: "Vrushil Prajapati", title: "Marketing Head", image: teamImg2 },
+      { name: "Jay Miyani", title: "Business Development Manager", image: teamImg3 },
+      { name: "Mayur Chitaliya", title: "Team Lead (Full Stack Development)", image: teamImg4 },
+      { name: "Jainam Panara", title: "Web Developer", image: teamImg5 },
+      { name: "Karan Joshi", title: "AWS Trainer", image: teamImg1 },
+      { name: "Vidhi Patel", title: "E-commerce Consultant", image: teamImg2 },
+    ];
 
   return (
     <div className="team-area ptb-80 bg-f9f6f6">
