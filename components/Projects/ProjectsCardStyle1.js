@@ -2,20 +2,48 @@ import React from "react";
 import * as Icon from "react-feather";
 import Link from "next/link";
 import Image from "next/image";
-
-import worksImg1 from "/public/images/works-image/works-image1.jpg";
-import worksImg2 from "/public/images/works-image/works-image2.jpg";
-import worksImg3 from "/public/images/works-image/works-image3.jpg";
-import worksImg4 from "/public/images/works-image/works-image4.jpg";
+import worksImg1 from "/public/images/works-image/Vianne Website.png";
+import worksImg2 from "/public/images/works-image/smilling rocks website.png";
+import worksImg3 from "/public/images/works-image/Salone Web site.png";
+import worksImg4 from "/public/images/works-image/Gujarat State Kabbadi Registration Portal.png";
 import worksImg5 from "/public/images/works-image/works-image5.jpg";
-import worksImg6 from "/public/images/works-image/works-image6.jpg";
-import worksImg7 from "/public/images/works-image/works-image7.jpg";
-import worksImg8 from "/public/images/works-image/works-image8.jpg";
-import worksImg9 from "/public/images/works-image/works-image9.jpg";
 
-// Shape Images 
-import shape2 from "/public/images/shape2.svg"; 
-import shape4 from "/public/images/shape4.svg"; 
+// Shape Images
+import shape2 from "/public/images/shape2.svg";
+import shape4 from "/public/images/shape4.svg";
+
+
+const allWorks = [
+  {
+    image: worksImg1,
+    title: "Vianne Website",
+    description:
+      "Discover the beauty of craftsmanship and the allure of elegance with Vianne Jewels. We offer a curated selection of fine jewelry that captures the essence of sophistication and style.",
+    link: "https://www.viannejewels.com/",
+  },
+  {
+    image: worksImg2,
+    title: "Smiling Rocks Website",
+    description:
+      "Welcome to Smiling Rocks, where luxury meets sustainability and social responsibility. We create exquisite lab-grown diamond jewelry that makes a positive impact on the world.",
+    link: "https://smilingrocks.com/",
+  },
+  {
+    image: worksImg3,
+    title: "Salone Website",
+    description:
+      "Welcome to Xpert Salon Professional, the ultimate destination for premium salon services tailored to meet your unique beauty needs, including chic haircuts and rejuvenating facials.",
+    link: "https://xpertprofessionalstage.dev.radixweb.net/salon",
+  },
+  {
+    image: worksImg4,
+    title: "Gujarat State Kabaddi Registration Portal",
+    description:
+      "The Gujarat State Kabaddi Association website promotes the sport in Gujarat with comprehensive information, including its rules, historical background, and significance.",
+    link: "https://gujaratstatekabaddi.com/",
+  },
+ 
+];
 
 const ProjectsCardStyle1 = () => {
   return (
@@ -23,187 +51,29 @@ const ProjectsCardStyle1 = () => {
       <div className="works-area pt-80 pb-50">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6">
-              <div className="single-works">
-                <Image src={worksImg1} alt="image" width={640} height={550} />
+            {allWorks.map((work, index) => (
+              <div key={index} className="col-lg-4 col-md-6">
+                <div className="single-works">
+                  <Image
+                    src={work.image}
+                    alt={work.title}
+                    width={640}
+                    height={550}
+                  />
 
-                <Link href="/projects/project-details/" className="icon">
-                  <Icon.Settings />
-                </Link>
+                  <Link href={work.link} className="icon">
+                    <Icon.Settings />
+                  </Link>
 
-                <div className="works-content">
-                  <h3>
-                    <Link href="/projects/project-details/">
-                      Incredible infrastructure
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
-                  </p>
+                  <div className="works-content">
+                    <h3>
+                      <Link href={work.link}>{work.title}</Link>
+                    </h3>
+                    <p>{work.description}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-works">
-                <Image src={worksImg2} alt="image" width={640} height={550} />
-
-                <Link href="/projects/project-details/" className="icon">
-                  <Icon.Settings />
-                </Link>
-
-                <div className="works-content">
-                  <h3>
-                    <Link href="/projects/project-details/">UI/UX Design</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-works">
-                <Image src={worksImg3} alt="image" width={640} height={550} />
-
-                <Link href="/projects/project-details/" className="icon">
-                  <Icon.Settings />
-                </Link>
-
-                <div className="works-content">
-                  <h3>
-                    <Link href="/projects/project-details/">Apps Development</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-works">
-                <Image src={worksImg4} alt="image" width={640} height={550} />
-
-                <Link href="/projects/project-details/" className="icon">
-                  <Icon.Settings />
-                </Link>
-
-                <div className="works-content">
-                  <h3>
-                    <Link href="/projects/project-details/">Mock-up Design</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-works">
-                <Image src={worksImg5} alt="image" width={640} height={550} />
-
-                <Link href="/projects/project-details/" className="icon">
-                  <Icon.Settings />
-                </Link>
-
-                <div className="works-content">
-                  <h3>
-                    <Link href="/projects/project-details/">E-commerce</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-works">
-                <Image src={worksImg6} alt="image" width={640} height={550} />
-
-                <Link href="/projects/project-details/" className="icon">
-                  <Icon.Settings />
-                </Link>
-
-                <div className="works-content">
-                  <h3>
-                    <Link href="/projects/project-details/">Web Design</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-works">
-                <Image src={worksImg7} alt="image" width={640} height={550} />
-
-                <Link href="/projects/project-details/" className="icon">
-                  <Icon.Settings />
-                </Link>
-
-                <div className="works-content">
-                  <h3>
-                    <Link href="/projects/project-details/">React App Development</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-works">
-                <Image src={worksImg8} alt="image" width={640} height={550} />
-
-                <Link href="/projects/project-details/" className="icon">
-                  <Icon.Settings />
-                </Link>
-
-                <div className="works-content">
-                  <h3>
-                    <Link href="/projects/project-details/">Digital Marketing</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-works">
-                <Image src={worksImg9} alt="image" width={640} height={550} />
-
-                <Link href="/projects/project-details/" className="icon">
-                  <Icon.Settings />
-                </Link>
-
-                <div className="works-content">
-                  <h3>
-                    <Link href="/projects/project-details/">Email Marketing</Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                    incididunt ut labore dolore magna aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
 

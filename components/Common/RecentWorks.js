@@ -15,6 +15,38 @@ import worksImg5 from "/public/images/works-image/works-image5.jpg";
 import shape2 from "/public/images/shape2.svg";
 import shape4 from "/public/images/shape4.svg";
 
+const allWorks = [
+  {
+    image: worksImg1,
+    title: "Vianne Website",
+    description:
+      "Discover the beauty of craftsmanship and the allure of elegance with Vianne Jewels. We offer a curated selection of fine jewelry that captures the essence of sophistication and style.",
+    link: "https://www.viannejewels.com/",
+  },
+  {
+    image: worksImg2,
+    title: "Smiling Rocks Website",
+    description:
+      "Welcome to Smiling Rocks, where luxury meets sustainability and social responsibility. We create exquisite lab-grown diamond jewelry that makes a positive impact on the world.",
+    link: "https://smilingrocks.com/",
+  },
+  {
+    image: worksImg3,
+    title: "Salone Website",
+    description:
+      "Welcome to Xpert Salon Professional, the ultimate destination for premium salon services tailored to meet your unique beauty needs, including chic haircuts and rejuvenating facials.",
+    link: "https://xpertprofessionalstage.dev.radixweb.net/salon",
+  },
+  {
+    image: worksImg4,
+    title: "Gujarat State Kabaddi Registration Portal",
+    description:
+      "The Gujarat State Kabaddi Association website promotes the sport in Gujarat with comprehensive information, including its rules, historical background, and significance.",
+    link: "https://gujaratstatekabaddi.com/",
+  },
+ 
+];
+
 const RecentWorks = () => {
   return (
     <>
@@ -23,10 +55,6 @@ const RecentWorks = () => {
           <div className="section-title">
             <h2>Our Recent Works</h2>
             <div className="bar"></div>
-            {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p> */}
           </div>
         </div>
 
@@ -56,123 +84,24 @@ const RecentWorks = () => {
           modules={[Pagination, Autoplay]}
           className="works-slides"
         >
-          <SwiperSlide>
-            <div className="single-works">
-              <Image src={worksImg1} alt="image" width={640} height={450} />
+          {allWorks.map((work, index) => (
+            <SwiperSlide key={index}>
+              <div className="single-works">
+                <Image src={work.image} alt="image" width={640} height={450} />
 
-              <Link href="/projects/project-details/" className="icon">
-                <Icon.Settings />
-              </Link>
+                <Link href={work.link} className="icon">
+                  <Icon.Settings />
+                </Link>
 
-              <div className="works-content">
-                <h3>
-                  <Link href="/projects/project-details/">Vianne Website</Link>
-                </h3>
-                <p>
-                  Discover the beauty of craftsmanship and the allure of
-                  elegance with Vianne Jewels. We offer a curated selection of
-                  fine jewelry that captures the essence of sophistication and
-                  style. Whether you're celebrating a special occasion or simply
-                  indulging in a touch of luxury .
-                </p>
+                <div className="works-content">
+                  <h3>
+                    <Link href={work.link}>{work.title}</Link>
+                  </h3>
+                  <p>{work.description}</p>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="single-works">
-              <Image src={worksImg2} alt="image" width={640} height={450} />
-
-              <Link href="/projects/project-details/" className="icon">
-                <Icon.Settings />
-              </Link>
-
-              <div className="works-content">
-                <h3>
-                  <Link href="/projects/project-details/">
-                    smilling rocks website
-                  </Link>
-                </h3>
-                <p>
-                  Welcome to Smiling Rocks, where luxury meets sustainability
-                  and social responsibility. We are more than just a jewelry
-                  brand—we are a movement dedicated to creating exquisite,
-                  lab-grown diamond jewelry that not only shines brightly but
-                  also makes a positive impact on the world.
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="single-works">
-              <Image src={worksImg3} alt="image" width={640} height={450} />
-
-              <Link href="/projects/project-details/" className="icon">
-                <Icon.Settings />
-              </Link>
-
-              <div className="works-content">
-                <h3>
-                  <Link href="/projects/project-details/">Salone Web site</Link>
-                </h3>
-                <p>
-                  Welcome to Xpert Salon Professional, the ultimate destination
-                  for premium salon services tailored to meet your unique beauty
-                  needs. Whether you're looking for a chic haircut, a
-                  rejuvenating facial, or the latest in hair coloring
-                  techniques.
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="single-works">
-              <Image src={worksImg4} alt="image" width={640} height={450} />
-
-              <Link href="/projects/project-details/" className="icon">
-                <Icon.Settings />
-              </Link>
-
-              <div className="works-content">
-                <h3>
-                  <Link href="/projects/project-details/">
-                    Gujarat State Kabbadi Registration Portal
-                  </Link>
-                </h3>
-                <p>
-                  The Gujarat State Kabaddi Association website is a
-                  comprehensive platform dedicated to the promotion and
-                  development of Kabaddi in Gujarat. It features detailed
-                  information about the sport, including its rules, historical
-                  background, and significance in the state. 
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="single-works">
-              <Image src={worksImg5} alt="image" width={640} height={450} />
-
-              <Link href="/projects/project-details/" className="icon">
-                <Icon.Settings />
-              </Link>
-
-              <div className="works-content">
-                <h3>
-                  <Link href="/projects/project-details/">
-                    Information Retrieval
-                  </Link>
-                </h3>
-                <p>
-                  Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
+            </SwiperSlide>
+          ))}
         </Swiper>
 
         {/* Shape Images */}

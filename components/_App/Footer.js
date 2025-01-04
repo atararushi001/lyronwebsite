@@ -125,39 +125,39 @@ const Footer = () => {
                 </ul>
 
                 <ul className="social-links">
-                  <li>
-                    <a
-                      href="https://www.facebook.com/"
-                      className="facebook"
-                      target="_blank"
-                    >
-                      <Icon.Facebook />
-                    </a>
-                  </li>
+                    {/* <li>
+                      <a
+                        href="https://www.facebook.com/"
+                        className="facebook"
+                        target="_blank"
+                      >
+                        <Icon.Facebook />
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.twitter.com/"
+                        className="twitter"
+                        target="_blank"
+                      >
+                        <Icon.Twitter />
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.instagramcom/"
+                        className="instagram"
+                        target="_blank"
+                      >
+                        <Icon.Instagram />
+                      </a>
+                    </li> */}
 
                   <li>
                     <a
-                      href="https://www.twitter.com/"
-                      className="twitter"
-                      target="_blank"
-                    >
-                      <Icon.Twitter />
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="https://www.instagramcom/"
-                      className="instagram"
-                      target="_blank"
-                    >
-                      <Icon.Instagram />
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/"
+                      href="https://www.linkedin.com/company/lyrcon-solutions/"
                       className="linkedin"
                       target="_blank"
                     >

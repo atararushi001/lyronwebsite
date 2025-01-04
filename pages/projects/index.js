@@ -9,7 +9,7 @@ const Projects1 = () => {
     <>
       <Navbar />
 
-      <PageBanner pageTitle="Projects Style One" />
+      <PageBanner pageTitle="Our Projects" />
 
       <ProjectsCardStyle1 />
 
