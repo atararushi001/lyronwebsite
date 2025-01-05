@@ -13,7 +13,7 @@ import teamImg5 from "/public/images/team-image/team5.jpg";
 const Team = () => {
   const teamMembers = [
 
-      { name: "Shah Preksha", title: "Founder & CEO", image: teamImg4 },
+      { name: "Shah Preksha", title: "Founder & CEO", image: teamImg3 },
       { name: "Darshan Desai", title: "Co-founder", image: teamImg5 },
       { name: "Ghanshyam Desai", title: "Director", image: teamImg2 },
       { name: "Vrushil Prajapati", title: "Marketing Head", image: teamImg4 },
@@ -61,7 +61,7 @@ const Team = () => {
                   <h3>{member.name}</h3>
                   <span>{member.title}</span>
                 </div>
-                <ul>
+                {/* <ul>
                   <li>
                     <a href="https://www.facebook.com/" target="_blank">
                       <Icon.Facebook />
@@ -82,8 +82,8 @@ const Team = () => {
                       <Icon.Gitlab />
                     </a>
                   </li>
-                </ul>
-                <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum.</p>
+                </ul> */}
+                {/* <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum.</p> */}
               </div>
             </div>
           </SwiperSlide>
