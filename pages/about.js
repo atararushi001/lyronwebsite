@@ -18,7 +18,7 @@ const About = () => {
 
       <Team />
 
-      <Partner />
+      {/* <Partner /> */}
 
       <FunFactsArea />
 

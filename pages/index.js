@@ -36,13 +36,13 @@ const Index = () => {
 
       <Feedback />
 
-      <Partner />
+      {/* <Partner /> */}
 
       {/* <BlogPost /> */}
 
       <Footer />
     </>
-  );
+  );  
 };
 
 export default Index;

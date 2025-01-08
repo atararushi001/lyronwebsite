@@ -2003,6 +2003,7 @@ Team CSS
   border-radius: 50%;
   display: inline-block !important;
   transition: 0.5s;
+  height: 200px;
 }
 .single-team .team-image::before {
   content: "";
