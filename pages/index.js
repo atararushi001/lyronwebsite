@@ -34,7 +34,7 @@ const Index = () => {
 
       {/* <PricingStyleOne /> */}
 
-      {/* <Feedback /> */}
+      <Feedback />
 
       {/* <Partner /> */}
 
