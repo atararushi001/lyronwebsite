@@ -3,7 +3,6 @@ import Link from "next/link";
 import * as Icon from "react-feather";
 
 const CareersContent = () => {
-  // Google form URL
   const googleFormUrl = "YOUR_GOOGLE_FORM_URL";
 
   return (
@@ -78,6 +77,45 @@ const CareersContent = () => {
             </div>
           </div>
 
+          <div className="internship-area ptb-80">
+            <div className="container">
+              <div className="section-title">
+                <h2>Internship Program</h2>
+                <div className="bar"></div>
+                <p>
+                  Launch your career with hands-on experience in cutting-edge technologies.
+                  Our internship program offers real-world project exposure and mentorship.
+                </p>
+              </div>
+
+              <div className="row">
+                <div className="col-lg-6 col-md-6">
+                  <div className="internship-box">
+                    <h3>Program Highlights</h3>
+                    <ul className="features-list">
+                      <li><Icon.Clock /> 3-6 months duration</li>
+                      <li><Icon.Code /> Hands-on technical experience</li>
+                      <li><Icon.Users /> Mentorship from senior developers</li>
+                      <li><Icon.Briefcase /> Real project exposure</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-6">
+                  <div className="internship-box">
+                    <h3>What We Look For</h3>
+                    <ul className="features-list">
+                      <li><Icon.Book /> Currently pursuing or recently graduated</li>
+                      <li><Icon.Code /> Strong programming fundamentals</li>
+                      <li><Icon.MessageCircle /> Good communication skills</li>
+                      <li><Icon.Target /> Eagerness to learn</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="about-area ptb-80">
             <div className="container">
               <div className="row align-items-center">
@@ -104,8 +142,9 @@ const CareersContent = () => {
                   <div className="career-apply-box">
                     <h3>Ready to Join Us?</h3>
                     <p>
-                      We're always looking for talented individuals to join our team. 
-                      Submit your application and let's start a conversation.
+                      Whether you're looking for a full-time position or an internship,
+                      we'd love to hear from you. Submit your application and let's
+                      start a conversation about your future with us.
                     </p>
                     <a 
                       href={googleFormUrl}
