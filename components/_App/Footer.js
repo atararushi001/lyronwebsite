@@ -109,7 +109,7 @@ const Footer = () => {
                 <ul className="footer-contact-info">
                   <li>
                     <Icon.MapPin />3 Jay maharaj complex, Dumral Bazar,
-                    Junaraopura, Nadiad, Gujarat-387002{" "}
+                    Junaraopura, Nadiad, Gujarat-387001
                   </li>
 
                   <li>
@@ -120,7 +120,7 @@ const Footer = () => {
 
                   <li>
                     <Icon.PhoneCall />
-                    Phone: <a href="tel:+919879058010">+91 9879058010</a>
+                    Phone: <a href="tel:+919998385011">+91 9998385011</a>
                   </li>
                 </ul>
 

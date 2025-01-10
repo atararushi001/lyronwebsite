@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import Image from 'next/image';
+import Image from "next/image";
 import Link from "next/link";
 import * as Icon from "react-feather";
 import { useSelector } from "react-redux";
@@ -81,17 +81,31 @@ const Navbar = () => {
                     <Link
                       href="/about/"
                       onClick={toggleNavbar}
-                      className={`nav-link ${currentPath == "/about/" && "active"}`}
+                      className={`nav-link ${
+                        currentPath == "/about/" && "active"
+                      }`}
                     >
                       About
                     </Link>
                   </li>
-
+                  <li className="nav-item">
+                    <Link
+                      href="/careers"
+                      onClick={toggleNavbar}
+                      className={`nav-link ${
+                        currentPath == "/careers" && "active"
+                      }`}
+                    >
+                      Careers
+                    </Link>
+                  </li>
                   <li className="nav-item">
                     <Link
                       href="/projects/"
                       onClick={toggleNavbar}
-                      className={`nav-link ${currentPath == "/projects/" && "active"}`}
+                      className={`nav-link ${
+                        currentPath == "/projects/" && "active"
+                      }`}
                     >
                       Projects
                     </Link>
@@ -101,7 +115,9 @@ const Navbar = () => {
                     <Link
                       href="/contact/"
                       onClick={toggleNavbar}
-                      className={`nav-link ${currentPath == "/contact/" && "active"}`}
+                      className={`nav-link ${
+                        currentPath == "/contact/" && "active"
+                      }`}
                     >
                       Contact
                     </Link>

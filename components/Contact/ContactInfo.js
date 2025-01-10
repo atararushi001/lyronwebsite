@@ -30,7 +30,7 @@ const ContactInfo = () => {
                 <h3>Visit Here</h3>
                 <p>
                   3 Jay maharaj complex, Dumral Bazar, Junaraopura, Nadiad,
-                  Gujarat-387002
+                  Gujarat-387001
                 </p>
               </div>
             </div>
@@ -42,7 +42,7 @@ const ContactInfo = () => {
                 </div>
                 <h3>Call Here</h3>
                 <p>
-                  <a href="tel:+919879058010">+91 9879058010</a>
+                  <a href="tel:+919998385011">+91 9998385011</a>
                 </p>
                
               </div>

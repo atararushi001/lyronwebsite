@@ -8487,3 +8487,47 @@ Go Top CSS
 .lang-didebar a:last-child {
   background-color: #483e3e;
 }/*# sourceMappingURL=style.css.map */
+
+
+
+/* 
+carreer 
+*/
+
+.career-apply-box {
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.career-apply-box h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.career-apply-box p {
+  margin-bottom: 25px;
+}
+
+.features-list {
+  padding: 0;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #6084a4;
+}
+
+.features-list li svg {
+  margin-right: 10px;
+  color: #44ce6f;
+  width: 18px;
+  height: 18px;
+}
